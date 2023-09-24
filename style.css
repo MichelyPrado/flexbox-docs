@@ -13,35 +13,820 @@
 
 /*Estilos de pagina que sobrescreverão os resets anteriores */
 
+/*CONTAINER DO DISPLAY-FLEX > início*/
 .container {
-    height: 300px;
-    background-color: blueviolet;
+    height: 150px;
+    background-color:black;
     border: 5px solid black; 
     display: flex;
-
 }
 
-.contido {
-    width: 200px;
-    height: 250px;
-    background-color: aqua;
-    border: 5px solid #000;
+.contido1 {
+    width: 100px;
+    height: 100px;
+    background-color:rgb(254, 8, 115);
+    border: 2px solid #000;
+    border-radius: 10px;
 }
 
-.justifycontent {
-    width: 600px;
-    height: 300px;
-    background-color:blueviolet;
+.contido2 {
+    width: 100px;
+    height: 100px;
+    background-color:rgb(235, 29, 218);
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+.contido3 {
+    width: 100px;
+    height: 100px;
+    background-color:rgba(57, 121, 231, 0.974);
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+.contido4 {
+    width: 100px;
+    height: 100px;
+    background-color:rgb(186, 238, 44);
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+.contido5 {
+    width: 100px;
+    height: 100px;
+    background-color:rgb(235, 239, 8);
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+/*CONTAINER DO DISPLAY-FLEX  > fim*/
+
+
+/*CONTAINER DO DISPLAY-FLEX + FLEX-DIRECTION:COLUMN > início*/
+.container2 {
+    height: 150px;
+    background-color:black;
+    border: 5px solid black; 
+    display: flex;
+    flex-direction: column;
+}
+
+.contido1a {
+    width: 100px;
+    height: 100px;
+    background-color:rgb(254, 8, 115);
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+.contido2a {
+    width: 100px;
+    height: 100px;
+    background-color:rgb(235, 29, 218);
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+.contido3a {
+    width: 100px;
+    height: 100px;
+    background-color:rgba(57, 121, 231, 0.974);
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+.contido4a {
+    width: 100px;
+    height: 100px;
+    background-color:rgb(186, 238, 44);
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+.contido5a {
+    width: 100px;
+    height: 100px;
+    background-color:rgb(235, 239, 8);
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+/*CONTAINER DO DISPLAY-FLEX + FLEX-DIRECTION:COLUMN > fim*/
+
+/*CONTAINER DO DISPLAY-FLEX + FLEX-DIRECTION:ROW-REVERSE > início*/
+.container3 {
+    height: 150px;
+    background-color:black;
+    border: 5px solid black; 
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.contido1b {
+    width: 100px;
+    height: 100px;
+    background-color:rgb(254, 8, 115);
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+.contido2b {
+    width: 100px;
+    height: 100px;
+    background-color:rgb(235, 29, 218);
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+.contido3b {
+    width: 100px;
+    height: 100px;
+    background-color:rgba(57, 121, 231, 0.974);
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+.contido4b {
+    width: 100px;
+    height: 100px;
+    background-color:rgb(186, 238, 44);
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+.contido5b {
+    width: 100px;
+    height: 100px;
+    background-color:rgb(235, 239, 8);
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+/*CONTAINER DO DISPLAY-FLEX + FLEX-DIRECTION:ROW-REVERSE > fim*/
+
+/*CONTAINER DO DISPLAY-FLEX + FLEX-DIRECTION:COLUMN-REVERSE > início*/
+.container4 {
+    height: 150px;
+    background-color:black;
+    border: 5px solid black; 
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.contido1c {
+    width: 100px;
+    height: 100px;
+    background-color:rgb(254, 8, 115);
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+.contido2c {
+    width: 100px;
+    height: 100px;
+    background-color:rgb(235, 29, 218);
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+.contido3c {
+    width: 100px;
+    height: 100px;
+    background-color:rgba(57, 121, 231, 0.974);
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+.contido4c {
+    width: 100px;
+    height: 100px;
+    background-color:rgb(186, 238, 44);
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+.contido5c {
+    width: 100px;
+    height: 100px;
+    background-color:rgb(235, 239, 8);
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+/*CONTAINER DO DISPLAY-FLEX + FLEX-DIRECTION:COLUMN-REVERSE > fim*/
+
+/*CONTAINER DO JUSTIFY-CONTENT + SPACE-AROUND> início*/
+.justifycontent-sa {
+    height: 150px;
+    background-color: black;
     border: 5px solid black; 
     display: flex;
     justify-content: space-around;
-
 }
 
-.jc {
-    width: 600;
-    height: 250px;
-    background-color: aqua;
+.jc-sa1 {
+    width: 200;
+    height: 100px;
+    background-color:rgb(254, 8, 115);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+.jc-sa2 {
+    width: 100;
+    height: 100px;
+    background-color:rgb(235, 29, 218);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+.jc-sa3 {
+    width: 100;
+    height: 100px;
+    background-color:rgba(57, 121, 231, 0.974);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+.jc-sa4 {
+    width: 100;
+    height: 100px;
+    background-color:rgb(186, 238, 44);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+.jc-sa5 {
+    width: 100;
+    height: 100px;
+    background-color:rgb(235, 239, 8);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+/*CONTAINER DO JUSTIFY-CONTENT + SPACE-AROUND > fim */
+
+/*CONTAINER DO JUSTIFY-CONTENT + SPACE-BETWEEN> início*/
+.justifycontent-sb {
+    height: 150px;
+    background-color: black;
     border: 5px solid black; 
-   
+    display: flex;
+    justify-content: space-between;
 }
+
+.jc-sb1 {
+    width: 200;
+    height: 100px;
+    background-color:rgb(254, 8, 115);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+.jc-sb2 {
+    width: 100;
+    height: 100px;
+    background-color:rgb(235, 29, 218);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+.jc-sb3 {
+    width: 100;
+    height: 100px;
+    background-color:rgba(57, 121, 231, 0.974);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+.jc-sb4 {
+    width: 100;
+    height: 100px;
+    background-color:rgb(186, 238, 44);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+.jc-sb5 {
+    width: 100;
+    height: 100px;
+    background-color:rgb(235, 239, 8);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+/*CONTAINER DO JUSTIFY-CONTENT + SPACE-BETWEEN > fim */
+
+/*CONTAINER DO JUSTIFY-CONTENT + FLEX-START> início*/
+.justifycontent-fs {
+    height: 150px;
+    background-color: black;
+    border: 5px solid black; 
+    display: flex;
+    justify-content: flex-start;
+}
+
+.jc-fs1 {
+    width: 200;
+    height: 100px;
+    background-color:rgb(254, 8, 115);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+.jc-fs2 {
+    width: 100;
+    height: 100px;
+    background-color:rgb(235, 29, 218);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+.jc-fs3 {
+    width: 100;
+    height: 100px;
+    background-color:rgba(57, 121, 231, 0.974);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+.jc-fs4 {
+    width: 100;
+    height: 100px;
+    background-color:rgb(186, 238, 44);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+.jc-fs5 {
+    width: 100;
+    height: 100px;
+    background-color:rgb(235, 239, 8);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+/*CONTAINER DO JUSTIFY-CONTENT + FLEX-START > fim */
+
+/*CONTAINER DO JUSTIFY-CONTENT + FLEX-END> início*/
+.justifycontent-fe {
+    height: 150px;
+    background-color: black;
+    border: 5px solid black; 
+    display: flex;
+    justify-content: flex-end;
+}
+
+.jc-fe1 {
+    width: 200;
+    height: 100px;
+    background-color:rgb(254, 8, 115);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+.jc-fe2 {
+    width: 100;
+    height: 100px;
+    background-color:rgb(235, 29, 218);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+.jc-fe3 {
+    width: 100;
+    height: 100px;
+    background-color:rgba(57, 121, 231, 0.974);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+.jc-fe4 {
+    width: 100;
+    height: 100px;
+    background-color:rgb(186, 238, 44);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+.jc-fe5 {
+    width: 100;
+    height: 100px;
+    background-color:rgb(235, 239, 8);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+/*CONTAINER DO JUSTIFY-CONTENT + FLEX-END > fim */
+
+/*CONTAINER DO JUSTIFY-CONTENT + CENTER> início*/
+.justifycontent-ce {
+    height: 150px;
+    background-color: black;
+    border: 5px solid black; 
+    display: flex;
+    justify-content: center;
+}
+
+.jc-ce1 {
+    width: 200;
+    height: 100px;
+    background-color:rgb(254, 8, 115);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+.jc-ce2 {
+    width: 100;
+    height: 100px;
+    background-color:rgb(235, 29, 218);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+.jc-ce3 {
+    width: 100;
+    height: 100px;
+    background-color:rgba(57, 121, 231, 0.974);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+.jc-ce4 {
+    width: 100;
+    height: 100px;
+    background-color:rgb(186, 238, 44);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+.jc-ce5 {
+    width: 100;
+    height: 100px;
+    background-color:rgb(235, 239, 8);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+/*CONTAINER DO JUSTIFY-CONTENT + CENTER > fim */
+
+/*CONTAINER DO ALIGN-ITEMS + FLEX-START > início*/
+.alignitems {
+    height: 300px;
+    background-color:black;
+    border: 5px solid black; 
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    border-radius: 10px;
+
+}
+
+.ai1 {
+    width: 100;
+    height: 100px;
+    background-color:rgb(254, 8, 115);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+.ai2 {
+    width: 100;
+    height: 100px;
+    background-color:rgb(235, 29, 218);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+.ai3 {
+    width: 100;
+    height: 100px;
+    background-color:rgba(57, 121, 231, 0.974);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+.ai4 {
+    width: 100;
+    height: 100px;
+    background-color:rgb(186, 238, 44);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+.ai5 {
+    width: 100;
+    height: 100px;
+    background-color:rgb(235, 239, 8);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+/*CONTAINER DO ALIGN-ITEMS + FLEX-START > fim*/
+
+/*CONTAINER DO ALIGN-ITEMS + FLEX-END > início*/
+.alignitems-fe {
+    height: 300px;
+    background-color:black;
+    border: 5px solid black; 
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    border-radius: 10px;
+
+}
+
+.ai-fe1 {
+    width: 100;
+    height: 100px;
+    background-color:rgb(254, 8, 115);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+.ai-fe2 {
+    width: 100;
+    height: 100px;
+    background-color:rgb(235, 29, 218);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+.ai-fe3 {
+    width: 100;
+    height: 100px;
+    background-color:rgba(57, 121, 231, 0.974);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+.ai-fe4 {
+    width: 100;
+    height: 100px;
+    background-color:rgb(186, 238, 44);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+.ai-fe5 {
+    width: 100;
+    height: 100px;
+    background-color:rgb(235, 239, 8);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+/*CONTAINER DO ALIGN-ITEMS + FLEX-END > fim*/
+
+/*CONTAINER DO ALIGN-ITEMS + CENTER > início*/
+.alignitems-ce {
+    height: 300px;
+    background-color:black;
+    border: 5px solid black; 
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border-radius: 10px;
+}
+
+.ai-ce1 {
+    width: 100;
+    height: 100px;
+    background-color:rgb(254, 8, 115);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+.ai-ce2 {
+    width: 100;
+    height: 100px;
+    background-color:rgb(235, 29, 218);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+.ai-ce3 {
+    width: 100;
+    height: 100px;
+    background-color:rgba(57, 121, 231, 0.974);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+.ai-ce4 {
+    width: 100;
+    height: 100px;
+    background-color:rgb(186, 238, 44);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+.ai-ce5 {
+    width: 100;
+    height: 100px;
+    background-color:rgb(235, 239, 8);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+/*CONTAINER DO ALIGN-ITEMS + CENTER > fim*/
+
+/*CONTAINER DO ALIGN-ITEMS + STRETCH > início*/
+.alignitems-st {
+    height: 300px;
+    background-color:black;
+    border: 5px solid black; 
+    display: flex;
+    justify-content: center;
+    align-items:stretch;
+    border-radius: 10px;
+}
+
+.ai-st1 {
+    width: 100;
+    background-color:rgb(254, 8, 115);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+.ai-st2 {
+    width: 100;
+    background-color:rgb(235, 29, 218);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+.ai-st3 {
+    width: 100;
+    background-color:rgba(57, 121, 231, 0.974);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+.ai-st4 {
+    width: 100;
+    background-color:rgb(186, 238, 44);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+.ai-st5 {
+    width: 100;
+    background-color:rgb(235, 239, 8);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+/*CONTAINER DO ALIGN-ITEMS + STRETCH > fim*/
+
+/*CONTAINER DO ALIGN-ITEMS + BASELINE > início*/
+.alignitems-bl {
+    height: 300px;
+    background-color:black;
+    border: 5px solid black; 
+    display: flex;
+    justify-content: center;
+    align-items:baseline;
+    border-radius: 10px;
+}
+
+.ai-bl1 {
+    font-size: 28pt;
+    height: 100px;
+    width: 100;
+    background-color:rgb(254, 8, 115);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+.ai-bl2 {
+    font-size: 20pt;
+    height: 100px;
+    width: 100;
+    background-color:rgb(235, 29, 218);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+.ai-bl3 {
+    font-size: 14pt;
+    height: 100px;
+    width: 100;
+    background-color:rgba(57, 121, 231, 0.974);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+.ai-bl4 {
+    font-size: 10pt;
+    height: 100px;
+    width: 100;
+    background-color:rgb(186, 238, 44);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+.ai-bl5 {
+    font-size: 5pt;
+    height: 100px;
+    width: 100;
+    background-color:rgb(235, 239, 8);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+/*CONTAINER DO ALIGN-ITEMS + BASELINE > fim*/
+
+/*CONTAINER DO FLEX-WRAP + WRAP > início*/
+.flexwrap {
+    height: 300px;
+    background-color:black;
+    border: 5px solid black; 
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+
+}
+
+.fw1 {
+    width: 100;
+    height: 100px;
+    background-color:rgb(254, 8, 115);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+.fw2 {
+    width: 100;
+    height: 100px;
+    background-color:rgb(235, 29, 218);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+.fw3 {
+    width: 100;
+    height: 100px;
+    background-color:rgba(57, 121, 231, 0.974);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+.fw4 {
+    width: 100;
+    height: 100px;
+    background-color:rgb(186, 238, 44);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+.fw5 {
+    width: 100;
+    height: 100px;
+    background-color:rgb(235, 239, 8);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+/*CONTAINER DO FLEX-WRAP + WRAP > fim*/
+
+/*CONTAINER DO FLEX-WRAP + NOWRAP > início*/
+.flexwrap-no {
+    height: 300px;
+    background-color:black;
+    border: 5px solid black; 
+    display:flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    border-radius: 10px;
+
+}
+
+.no1 {
+    width: 100;
+    height: 100px;
+    background-color:rgb(254, 8, 115);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+.no2 {
+    width: 100;
+    height: 100px;
+    background-color:rgb(235, 29, 218);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+.no3 {
+    width: 100;
+    height: 100px;
+    background-color:rgba(57, 121, 231, 0.974);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+.no4 {
+    width: 100;
+    height: 100px;
+    background-color:rgb(186, 238, 44);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+.no5 {
+    width: 100;
+    height: 100px;
+    background-color:rgb(235, 239, 8);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+/*CONTAINER DO FLEX-WRAP + NOWRAP > fim*/

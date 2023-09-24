@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Flexbox</h1>
-    <h2>Documentação</h2>
+    <h2>Flexbox é a abreviação de Flexible Box Module. Um modelo de layout que permite fácil controle da distribuição do espaço e alinhamento entre elementos html.</h2>
     <h3>display:flex</h3>
     <p class="descrição-propriedade">
         A primeira propriedade que precisa ser declarada para que o Flexbox funcione!
@@ -41,33 +41,187 @@
 
     
 
-    <p>Exemplo:</p>
+    <p><strong>Exemplo de display:flex: faz com que o contêiner expanda toda a largura disponível</strong></p>
     <div class="container">
-        <div class="contido">Olar</div>
-        <div class="contido">Iza</div>
-        <div class="contido">Mi</div>
-        <div class="contido">um</div>
-        <div class="contido">Dois</div>
+        <div class="contido1">Exemplo 1</div>
+        <div class="contido2">Exemplo 2</div>
+        <div class="contido3">Exemplo 3</div>
+        <div class="contido4">Exemplo 4</div>
+        <div class="contido5">Ex 5</div>
     </div>
 
-    <h3>Justify-content: space-between</h3>
-    <p class="descrição-propriedade">
-        Cria um espaçamento igual entre os elementos. Mantendo o primeiro grudado no início e o último no final
-    </p>
-
-    <p>Exemplo de justify-content:</p>
-    <div class="justifycontent">
-        <div class="jc">OI</div>
-        <div class="jc">CLARO</div>
-        <div class="jc">TIM</div>
-        <div class="jc">VIVO</div>
-        <div class="jc">NEXTEL</div>
+    <h3>Primeira Propriedade do display:flex = Flex-direction;</h3>  <p><i>flex-direction: column</i></p>
+    <div class="container2">
+        <div class="contido1a">Exemplo 1</div>
+        <div class="contido2a">Exemplo 2</div>
+        <div class="contido3a">Exemplo 3</div>
+        <div class="contido4a">Exemplo 4</div>
+        <div class="contido5a">Ex 5</div>
     </div>
 
-    
-    
-    
+    <p><i>flex-direction:row-reverse</i></p>
+    <div class="container3">
+        <div class="contido1b">Exemplo 1</div>
+        <div class="contido2b">Exemplo 2</div>
+        <div class="contido3b">Exemplo 3</div>
+        <div class="contido4b">Exemplo 4</div>
+        <div class="contido5b">Ex 5</div>
+    </div>
+
+    <p><i>flex-direction: column-reverse</i></p>
+    <div class="container4">
+        <div class="contido1c">Exemplo 1</div>
+        <div class="contido2c">Exemplo 2</div>
+        <div class="contido3c">Exemplo 3</div>
+        <div class="contido4c">Exemplo 4</div>
+        <div class="contido5c">Ex 5</div>
+    </div>
 
 
+    <h3>Segunda Propriedade do display-flex = Justify-content;</h3>
+    <p><i>justify-content: space-around</i></p>
+    <div class="justifycontent-sa">
+        <div class="jc-sa1">Exemplo 1</div>
+        <div class="jc-sa2">Exemplo 2</div>
+        <div class="jc-sa3">Exemplo 3</div>
+        <div class="jc-sa4">Exemplo 4</div>
+        <div class="jc-sa5">Ex 5</div>
+    </div>
+
+    <p><i>justify-content: space-between</i></p>
+    <div class="justifycontent-sb">
+        <div class="jc-sb1">Exemplo 1</div>
+        <div class="jc-sb2">Exemplo 2</div>
+        <div class="jc-sb3">Exemplo 3</div>
+        <div class="jc-sb4">Exemplo 4</div>
+        <div class="jc-sb5">Ex 5</div>
+    </div>
+
+    <p><i>justify-content: flex-start</i></p>
+    <div class="justifycontent-fs">
+        <div class="jc-fs1">Exemplo 1</div>
+        <div class="jc-fs2">Exemplo 2</div>
+        <div class="jc-fs3">Exemplo 3</div>
+        <div class="jc-fs4">Exemplo 4</div>
+        <div class="jc-fs5">Ex 5</div>
+    </div>
+
+    <p><i>justify-content: flex-end</i></p>
+    <div class="justifycontent-fe">
+        <div class="jc-fe1">Exemplo 1</div>
+        <div class="jc-fe2">Exemplo 2</div>
+        <div class="jc-fe3">Exemplo 3</div>
+        <div class="jc-fe4">Exemplo 4</div>
+        <div class="jc-fe5">Ex 5</div>
+    </div>
+
+    <p><i>justify-content: center</i></p>
+    <div class="justifycontent-ce">
+        <div class="jc-ce1">Exemplo 1</div>
+        <div class="jc-ce2">Exemplo 2</div>
+        <div class="jc-ce3">Exemplo 3</div>
+        <div class="jc-ce4">Exemplo 4</div>
+        <div class="jc-ce5">Ex 5</div>
+    </div>
+    
+    <h3>Terceira Propriedade do display:flex = Align-items;</h3>  <p><i>align-items: flex-start</i></p>
+    <div class="alignitems">
+        <div class="ai1">Exemplo 1</div>
+        <div class="ai2">Exemplo 2</div>
+        <div class="ai3">Exemplo 3</div>
+        <div class="ai4">Exemplo 4</div>
+        <div class="ai5">Ex 5</div>
+    </div>
+
+    <p><i>align-items: flex-end</i></p>
+    <div class="alignitems-fe">
+        <div class="ai-fe1">Exemplo 1</div>
+        <div class="ai-fe2">Exemplo 2</div>
+        <div class="ai-fe3">Exemplo 3</div>
+        <div class="ai-fe4">Exemplo 4</div>
+        <div class="ai-fe5">Ex 5</div>
+    </div>
+
+    <p><i>align-items: center</i></p>
+    <div class="alignitems-ce">
+        <div class="ai-ce1">Exemplo 1</div>
+        <div class="ai-ce2">Exemplo 2</div>
+        <div class="ai-ce3">Exemplo 3</div>
+        <div class="ai-ce4">Exemplo 4</div>
+        <div class="ai-ce5">Ex 5</div>
+    </div>
+
+    <p><i>align-items: stretch</i></p>
+    <div class="alignitems-st">
+        <div class="ai-st1">Exemplo 1</div>
+        <div class="ai-st2">Exemplo 2</div>
+        <div class="ai-st3">Exemplo 3</div>
+        <div class="ai-st4">Exemplo 4</div>
+        <div class="ai-st5">Ex 5</div>
+    </div>
+
+    <p><i>align-items: baseline</i></p>
+    <div class="alignitems-bl">
+        <div class="ai-bl1">Exemplo 1</div>
+        <div class="ai-bl2">Exemplo 2</div>
+        <div class="ai-bl3">Exemplo 3</div>
+        <div class="ai-bl4">Exemplo 4</div>
+        <div class="ai-bl5">Exemplo 5</div>
+    </div>
+
+    <h3>Quarta Propriedade do display:flex = Flex-wrap;</h3>
+    <p><i>Flex-wrap: wrap</i></p>
+    <div class="flexwrap">
+        <div class="fw1">Exemplo 1</div>
+        <div class="fw2">Exemplo 2</div>
+        <div class="fw3">Exemplo 3</div>
+        <div class="fw4">Exemplo 4</div>
+        <div class="fw5">Exemplo 5</div>
+        <div class="fw1">Exemplo 6</div>
+        <div class="fw2">Exemplo 7</div>
+        <div class="fw3">Exemplo 8</div>
+        <div class="fw4">Exemplo 9</div>
+        <div class="fw5">Exemplo 10</div>
+        <div class="fw1">Exemplo 11</div>
+        <div class="fw2">Exemplo 12</div>
+        <div class="fw3">Exemplo 13</div>
+        <div class="fw4">Exemplo 14</div>
+        <div class="fw5">Exemplo 15</div>
+        <div class="fw5">Exemplo 16</div>
+        <div class="fw1">Exemplo 17</div>
+        <div class="fw2">Exemplo 18</div>
+        <div class="fw3">Exemplo 19</div>
+        <div class="fw4">Exemplo 20</div>
+        <div class="fw5">Exemplo 21</div>
+        <div class="fw5">Exemplo 22</div>
+        <div class="fw5">Exemplo 23</div>
+    </div>
+
+    <p><i>Flex-wrap: nowrap</i></p>
+    <div class="flexwrap-no">
+        <div class="no1">Exemplo 1</div>
+        <div class="no2">Exemplo 2</div>
+        <div class="no3">Exemplo 3</div>
+        <div class="no4">Exemplo 4</div>
+        <div class="no5">Exemplo 5</div>
+        <div class="no1">Exemplo 6</div>
+        <div class="no2">Exemplo 7</div>
+        <div class="no3">Exemplo 8</div>
+        <div class="no4">Exemplo 9</div>
+        <div class="no5">Exemplo 10</div>
+        <div class="no1">Exemplo 11</div>
+        <div class="no2">Exemplo 12</div>
+        <div class="no3">Exemplo 13</div>
+        <div class="no4">Exemplo 14</div>
+        <div class="no5">Exemplo 15</div>
+        <div class="no5">Exemplo 16</div>
+        <div class="no1">Exemplo 17</div>
+        <div class="no2">Exemplo 18</div>
+        <div class="no3">Exemplo 19</div>
+        <div class="no4">Exemplo 20</div>
+        <div class="no5">Exemplo 21</div>
+        <div class="no5">Exemplo 22</div>
+        <div class="no5">Exemplo 23</div>
+    </div>
 </body>
 </html>
