@@ -62,17 +62,16 @@
 }
 /*CONTAINER DO DISPLAY-FLEX  > fim*/
 
-
-/*CONTAINER DO DISPLAY-FLEX + FLEX-DIRECTION:COLUMN > início*/
-.container2 {
+/*CONTAINER DO DISPLAY-FLEX + FLEX-DIRECTION:ROW > início*/
+.fdr {
     height: 150px;
     background-color:black;
     border: 5px solid black; 
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
-.contido1a {
+.fdr1 {
     width: 100px;
     height: 100px;
     background-color:rgb(254, 8, 115);
@@ -80,7 +79,7 @@
     border-radius: 10px;
 }
 
-.contido2a {
+.fdr2 {
     width: 100px;
     height: 100px;
     background-color:rgb(235, 29, 218);
@@ -88,7 +87,7 @@
     border-radius: 10px;
 }
 
-.contido3a {
+.fdr3 {
     width: 100px;
     height: 100px;
     background-color:rgba(57, 121, 231, 0.974);
@@ -96,7 +95,7 @@
     border-radius: 10px;
 }
 
-.contido4a {
+.fdr4 {
     width: 100px;
     height: 100px;
     background-color:rgb(186, 238, 44);
@@ -104,14 +103,14 @@
     border-radius: 10px;
 }
 
-.contido5a {
+.fdr5 {
     width: 100px;
     height: 100px;
     background-color:rgb(235, 239, 8);
     border: 2px solid #000;
     border-radius: 10px;
 }
-/*CONTAINER DO DISPLAY-FLEX + FLEX-DIRECTION:COLUMN > fim*/
+/*CONTAINER DO DISPLAY-FLEX + FLEX-DIRECTION:ROW > fim*/
 
 /*CONTAINER DO DISPLAY-FLEX + FLEX-DIRECTION:ROW-REVERSE > início*/
 .container3 {
@@ -163,6 +162,56 @@
 }
 /*CONTAINER DO DISPLAY-FLEX + FLEX-DIRECTION:ROW-REVERSE > fim*/
 
+/*CONTAINER DO DISPLAY-FLEX + FLEX-DIRECTION:COLUMN > início*/
+.container2 {
+    height: 150px;
+    background-color:black;
+    border: 5px solid black; 
+    display: flex;
+    flex-direction: column;
+}
+
+.contido1a {
+    width: 100px;
+    height: 100px;
+    background-color:rgb(254, 8, 115);
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+.contido2a {
+    width: 100px;
+    height: 100px;
+    background-color:rgb(235, 29, 218);
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+.contido3a {
+    width: 100px;
+    height: 100px;
+    background-color:rgba(57, 121, 231, 0.974);
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+.contido4a {
+    width: 100px;
+    height: 100px;
+    background-color:rgb(186, 238, 44);
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+.contido5a {
+    width: 100px;
+    height: 100px;
+    background-color:rgb(235, 239, 8);
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+/*CONTAINER DO DISPLAY-FLEX + FLEX-DIRECTION:COLUMN > fim*/
+
 /*CONTAINER DO DISPLAY-FLEX + FLEX-DIRECTION:COLUMN-REVERSE > início*/
 .container4 {
     height: 150px;
@@ -212,6 +261,56 @@
     border-radius: 10px;
 }
 /*CONTAINER DO DISPLAY-FLEX + FLEX-DIRECTION:COLUMN-REVERSE > fim*/
+
+/*CONTAINER DO JUSTIFY-CONTENT + CENTER> início*/
+.justifycontent-ce {
+    height: 150px;
+    background-color: black;
+    border: 5px solid black; 
+    display: flex;
+    justify-content: center;
+}
+
+.jc-ce1 {
+    width: 200;
+    height: 100px;
+    background-color:rgb(254, 8, 115);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+.jc-ce2 {
+    width: 100;
+    height: 100px;
+    background-color:rgb(235, 29, 218);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+.jc-ce3 {
+    width: 100;
+    height: 100px;
+    background-color:rgba(57, 121, 231, 0.974);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+.jc-ce4 {
+    width: 100;
+    height: 100px;
+    background-color:rgb(186, 238, 44);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+.jc-ce5 {
+    width: 100;
+    height: 100px;
+    background-color:rgb(235, 239, 8);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+/*CONTAINER DO JUSTIFY-CONTENT + CENTER > fim */
 
 /*CONTAINER DO JUSTIFY-CONTENT + SPACE-AROUND> início*/
 .justifycontent-sa {
@@ -412,56 +511,6 @@
     border-radius: 10px;
 }
 /*CONTAINER DO JUSTIFY-CONTENT + FLEX-END > fim */
-
-/*CONTAINER DO JUSTIFY-CONTENT + CENTER> início*/
-.justifycontent-ce {
-    height: 150px;
-    background-color: black;
-    border: 5px solid black; 
-    display: flex;
-    justify-content: center;
-}
-
-.jc-ce1 {
-    width: 200;
-    height: 100px;
-    background-color:rgb(254, 8, 115);
-    border: 2px solid black; 
-    border-radius: 10px;
-}
-
-.jc-ce2 {
-    width: 100;
-    height: 100px;
-    background-color:rgb(235, 29, 218);
-    border: 2px solid black; 
-    border-radius: 10px;
-}
-
-.jc-ce3 {
-    width: 100;
-    height: 100px;
-    background-color:rgba(57, 121, 231, 0.974);
-    border: 2px solid black; 
-    border-radius: 10px;
-}
-
-.jc-ce4 {
-    width: 100;
-    height: 100px;
-    background-color:rgb(186, 238, 44);
-    border: 2px solid black; 
-    border-radius: 10px;
-}
-
-.jc-ce5 {
-    width: 100;
-    height: 100px;
-    background-color:rgb(235, 239, 8);
-    border: 2px solid black; 
-    border-radius: 10px;
-}
-/*CONTAINER DO JUSTIFY-CONTENT + CENTER > fim */
 
 /*CONTAINER DO ALIGN-ITEMS + FLEX-START > início*/
 .alignitems {
@@ -830,3 +879,57 @@
     border-radius: 10px;
 }
 /*CONTAINER DO FLEX-WRAP + NOWRAP > fim*/
+
+/*CONTAINER DO FLEX-WRAP + WRAP-REVERSE > início*/
+.wrap-reverse {
+    height: 300px;
+    background-color:black;
+    border: 5px solid black; 
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    border-radius: 10px;
+
+}
+
+.wr1 {
+    width: 100;
+    height: 100px;
+    background-color:rgb(254, 8, 115);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+.wr2 {
+    width: 100;
+    height: 100px;
+    background-color:rgb(235, 29, 218);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+.wr3 {
+    width: 100;
+    height: 100px;
+    background-color:rgba(57, 121, 231, 0.974);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+.wr4 {
+    width: 100;
+    height: 100px;
+    background-color:rgb(186, 238, 44);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+.wr5 {
+    width: 100;
+    height: 100px;
+    background-color:rgb(235, 239, 8);
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+/*CONTAINER DO FLEX-WRAP + WRAP-REVERSE > fim*/
+

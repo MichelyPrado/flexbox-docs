@@ -9,14 +9,10 @@
 <body>
     <h1>Flexbox</h1>
     <h2>Flexbox é a abreviação de Flexible Box Module. Um modelo de layout que permite fácil controle da distribuição do espaço e alinhamento entre elementos html.</h2>
-    <h3>display:flex</h3>
-    <p class="descrição-propriedade">
-        A primeira propriedade que precisa ser declarada para que o Flexbox funcione!
-    </p>
-    <p class="descricao-propriedade">Algumas propriedades como flex-direction, justify-content e align-content já vem com os valores padrão.</p>
-
+    <h3><i>Display : flex</i> é a primeira propriedade que precisa ser declarada para que o Flexbox funcione! </h3>
+    
     <!-- table>(tr>th*2)+tr*3>td.propriedade+td.valor -->
-    <table>
+    <!-- <table>
         <tr>
             <th></th>
             <th></th>
@@ -37,11 +33,10 @@
             <td class="propriedade">align-content</td>
             <td class="valor">flex-start</td>
         </tr>
-    </table>
+    </table> -->
 
-    
 
-    <p><strong>Exemplo de display:flex: faz com que o contêiner expanda toda a largura disponível</strong></p>
+    <p><strong>Exemplo de "display:flex" faz com que o contêiner expanda toda a largura disponível</strong></p>
     <div class="container">
         <div class="contido1">Exemplo 1</div>
         <div class="contido2">Exemplo 2</div>
@@ -50,13 +45,15 @@
         <div class="contido5">Ex 5</div>
     </div>
 
-    <h3>Primeira Propriedade do display:flex = Flex-direction;</h3>  <p><i>flex-direction: column</i></p>
-    <div class="container2">
-        <div class="contido1a">Exemplo 1</div>
-        <div class="contido2a">Exemplo 2</div>
-        <div class="contido3a">Exemplo 3</div>
-        <div class="contido4a">Exemplo 4</div>
-        <div class="contido5a">Ex 5</div>
+    <h3>Primeira Propriedade do display:flex = Flex-direction;</h3>  
+   
+    <p><i>flex-direction:row</i></p>
+    <div class="fdr">
+        <div class="fdr1">Exemplo 1</div>
+        <div class="fdr2">Exemplo 2</div>
+        <div class="fdr3">Exemplo 3</div>
+        <div class="fdr4">Exemplo 4</div>
+        <div class="fdr5">Ex 5</div>
     </div>
 
     <p><i>flex-direction:row-reverse</i></p>
@@ -68,6 +65,15 @@
         <div class="contido5b">Ex 5</div>
     </div>
 
+    <p><i>flex-direction: column</i></p>
+    <div class="container2">
+        <div class="contido1a">Exemplo 1</div>
+        <div class="contido2a">Exemplo 2</div>
+        <div class="contido3a">Exemplo 3</div>
+        <div class="contido4a">Exemplo 4</div>
+        <div class="contido5a">Ex 5</div>
+    </div>
+
     <p><i>flex-direction: column-reverse</i></p>
     <div class="container4">
         <div class="contido1c">Exemplo 1</div>
@@ -77,8 +83,17 @@
         <div class="contido5c">Ex 5</div>
     </div>
 
-
     <h3>Segunda Propriedade do display-flex = Justify-content;</h3>
+
+    <p><i>justify-content: center</i></p>
+    <div class="justifycontent-ce">
+        <div class="jc-ce1">Exemplo 1</div>
+        <div class="jc-ce2">Exemplo 2</div>
+        <div class="jc-ce3">Exemplo 3</div>
+        <div class="jc-ce4">Exemplo 4</div>
+        <div class="jc-ce5">Ex 5</div>
+    </div>
+
     <p><i>justify-content: space-around</i></p>
     <div class="justifycontent-sa">
         <div class="jc-sa1">Exemplo 1</div>
@@ -115,16 +130,8 @@
         <div class="jc-fe5">Ex 5</div>
     </div>
 
-    <p><i>justify-content: center</i></p>
-    <div class="justifycontent-ce">
-        <div class="jc-ce1">Exemplo 1</div>
-        <div class="jc-ce2">Exemplo 2</div>
-        <div class="jc-ce3">Exemplo 3</div>
-        <div class="jc-ce4">Exemplo 4</div>
-        <div class="jc-ce5">Ex 5</div>
-    </div>
-    
-    <h3>Terceira Propriedade do display:flex = Align-items;</h3>  <p><i>align-items: flex-start</i></p>
+    <h3>Terceira Propriedade do display:flex = Align-items;</h3>  
+    <p><i>align-items: flex-start</i></p>
     <div class="alignitems">
         <div class="ai1">Exemplo 1</div>
         <div class="ai2">Exemplo 2</div>
@@ -177,24 +184,24 @@
         <div class="fw3">Exemplo 3</div>
         <div class="fw4">Exemplo 4</div>
         <div class="fw5">Exemplo 5</div>
-        <div class="fw1">Exemplo 6</div>
-        <div class="fw2">Exemplo 7</div>
-        <div class="fw3">Exemplo 8</div>
-        <div class="fw4">Exemplo 9</div>
-        <div class="fw5">Exemplo 10</div>
-        <div class="fw1">Exemplo 11</div>
-        <div class="fw2">Exemplo 12</div>
-        <div class="fw3">Exemplo 13</div>
-        <div class="fw4">Exemplo 14</div>
-        <div class="fw5">Exemplo 15</div>
-        <div class="fw5">Exemplo 16</div>
-        <div class="fw1">Exemplo 17</div>
-        <div class="fw2">Exemplo 18</div>
-        <div class="fw3">Exemplo 19</div>
-        <div class="fw4">Exemplo 20</div>
-        <div class="fw5">Exemplo 21</div>
-        <div class="fw5">Exemplo 22</div>
-        <div class="fw5">Exemplo 23</div>
+        <div class="fw6">Exemplo 6</div>
+        <div class="fw7">Exemplo 7</div>
+        <div class="fw8">Exemplo 8</div>
+        <div class="fw9">Exemplo 9</div>
+        <div class="fw10">Exemplo 10</div>
+        <div class="fw11">Exemplo 11</div>
+        <div class="fw12">Exemplo 12</div>
+        <div class="fw13">Exemplo 13</div>
+        <div class="fw14">Exemplo 14</div>
+        <div class="fw15">Exemplo 15</div>
+        <div class="fw16">Exemplo 16</div>
+        <div class="fw17">Exemplo 17</div>
+        <div class="fw18">Exemplo 18</div>
+        <div class="fw19">Exemplo 19</div>
+        <div class="fw20">Exemplo 20</div>
+        <div class="fw21">Exemplo 21</div>
+        <div class="fw23">Exemplo 22</div>
+        <div class="fw24">Exemplo 23</div>
     </div>
 
     <p><i>Flex-wrap: nowrap</i></p>
@@ -204,24 +211,51 @@
         <div class="no3">Exemplo 3</div>
         <div class="no4">Exemplo 4</div>
         <div class="no5">Exemplo 5</div>
-        <div class="no1">Exemplo 6</div>
-        <div class="no2">Exemplo 7</div>
-        <div class="no3">Exemplo 8</div>
-        <div class="no4">Exemplo 9</div>
-        <div class="no5">Exemplo 10</div>
-        <div class="no1">Exemplo 11</div>
-        <div class="no2">Exemplo 12</div>
-        <div class="no3">Exemplo 13</div>
-        <div class="no4">Exemplo 14</div>
-        <div class="no5">Exemplo 15</div>
-        <div class="no5">Exemplo 16</div>
-        <div class="no1">Exemplo 17</div>
-        <div class="no2">Exemplo 18</div>
-        <div class="no3">Exemplo 19</div>
-        <div class="no4">Exemplo 20</div>
-        <div class="no5">Exemplo 21</div>
-        <div class="no5">Exemplo 22</div>
-        <div class="no5">Exemplo 23</div>
+        <div class="no6">Exemplo 6</div>
+        <div class="no7">Exemplo 7</div>
+        <div class="no8">Exemplo 8</div>
+        <div class="no9">Exemplo 9</div>
+        <div class="no10">Exemplo 10</div>
+        <div class="no11">Exemplo 11</div>
+        <div class="no12">Exemplo 12</div>
+        <div class="no13">Exemplo 13</div>
+        <div class="no14">Exemplo 14</div>
+        <div class="no15">Exemplo 15</div>
+        <div class="no16">Exemplo 16</div>
+        <div class="no17">Exemplo 17</div>
+        <div class="no18">Exemplo 18</div>
+        <div class="no19">Exemplo 19</div>
+        <div class="no20">Exemplo 20</div>
+        <div class="no21">Exemplo 21</div>
+        <div class="no22">Exemplo 22</div>
+        <div class="no23">Exemplo 23</div>
+    </div>
+
+    <p><i>Flex-wrap: wrap-reverse</i></p>
+    <div class="wrap-reverse">
+        <div class="wr1">Exemplo 1</div>
+        <div class="wr2">Exemplo 2</div>
+        <div class="wr3">Exemplo 3</div>
+        <div class="wr4">Exemplo 4</div>
+        <div class="wr5">Exemplo 5</div>
+        <div class="wr1">Exemplo 6</div>
+        <div class="wr2">Exemplo 7</div>
+        <div class="wr3">Exemplo 8</div>
+        <div class="wr4">Exemplo 9</div>
+        <div class="wr5">Exemplo 10</div>
+        <div class="wr1">Exemplo 11</div>
+        <div class="wr2">Exemplo 12</div>
+        <div class="wr3">Exemplo 13</div>
+        <div class="wr4">Exemplo 14</div>
+        <div class="wr5">Exemplo 15</div>
+        <div class="wr5">Exemplo 16</div>
+        <div class="wr1">Exemplo 17</div>
+        <div class="wr2">Exemplo 18</div>
+        <div class="wr3">Exemplo 19</div>
+        <div class="wr4">Exemplo 20</div>
+        <div class="wr5">Exemplo 21</div>
+        <div class="wr5">Exemplo 22</div>
+        <div class="wr5">Exemplo 23</div>
     </div>
 </body>
 </html>
