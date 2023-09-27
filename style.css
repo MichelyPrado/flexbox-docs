@@ -12,6 +12,14 @@
 
 
 /*Estilos de pagina que sobrescreverão os resets anteriores */
+:root {
+    --cor1:rgb(254, 8, 115);
+    --cor2:rgb(235, 29, 218);
+    --cor3:rgba(57, 121, 231, 0.974);
+    --cor4:rgb(186, 238, 44);
+    --cor5:rgb(235, 239, 8);
+}
+
 
 /*CONTAINER DO DISPLAY-FLEX > início*/
 .container {
@@ -891,45 +899,26 @@
     border-radius: 10px;
 
 }
-
-.wr1 {
+.wr:nth-child(n + 1) {
     width: 100;
     height: 100px;
+    /* background-color:rgb(254, 8, 115); */
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+.wr {
     background-color:rgb(254, 8, 115);
-    border: 2px solid black; 
-    border-radius: 10px;
+
 }
 
-.wr2 {
-    width: 100;
-    height: 100px;
+.wr {
     background-color:rgb(235, 29, 218);
-    border: 2px solid black; 
-    border-radius: 10px;
+
 }
 
-.wr3 {
-    width: 100;
-    height: 100px;
+.wr3, .wr6 {
     background-color:rgba(57, 121, 231, 0.974);
-    border: 2px solid black; 
-    border-radius: 10px;
-}
+  }
 
-.wr4 {
-    width: 100;
-    height: 100px;
-    background-color:rgb(186, 238, 44);
-    border: 2px solid black; 
-    border-radius: 10px;
-}
-
-.wr5 {
-    width: 100;
-    height: 100px;
-    background-color:rgb(235, 239, 8);
-    border: 2px solid black; 
-    border-radius: 10px;
-}
 /*CONTAINER DO FLEX-WRAP + WRAP-REVERSE > fim*/
 
