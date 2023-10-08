@@ -12,6 +12,7 @@
     --cor-valor: #e0058c;
     --cor-ponto: #f5f908;
     --cor-container: #bae0a3;
+    --fundo-code: #20273c;
 
     --primeiro: #FF0018;
     --segundo: #FFA52C;
@@ -21,11 +22,7 @@
     --sexto: #86007D;
     --setimo: #ffffff;
     --oitavo: #000000;
-    
-  
-    
-    
-    --fundo-code: #20273c;
+
     --cor-primairo: #1b1b1b;
     --cor-secundario: #000000;
     --cor-terciario: #1b1b1b;
@@ -34,10 +31,15 @@
 /* comportamento rolagem suave */
 html {
     scroll-behavior: smooth;
-    margin: 0;
-    background-color: var(--cor-pai);
-    display: flex;
-    align-items: center;
+    /* background-color: var(--cor-pai); */
+    background-color: var(--fundo-code);
+   }
+
+header {
+    color:var(--cor-valor);
+    font-family: monospace;
+
+    
 }
 
 h1 {
@@ -73,6 +75,9 @@ code{
 pre{
     margin: 0;
 }
+a {
+    color: var(--cor-valor);
+}
 
 .descricao{
     color: var(--cor-valor);
@@ -107,7 +112,7 @@ pre{
 
 .container-pai {
     height: 100%;
-    width: 1000px;
+    width: 100%;
     padding-bottom: 25px;
     
     background-color: var(--cor-pai);
@@ -115,6 +120,8 @@ pre{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: var(--borda-filho);
+
     
    
     
@@ -137,7 +144,10 @@ pre{
     padding: 15px 20px;
     display: flex;
     background-color: black;
-    border: 2px solid black;
+    /* border: 2px solid black; */
+    
+    background-color: var(--cor-propriedade);
+    border-radius: 5px;
 }
 
 .contido {
