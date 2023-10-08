@@ -5,7 +5,14 @@
     --cor3:rgb(255, 109, 40);
     --cor4:rgb(252, 231, 0);
     --cor5:rgb(0, 245, 255);
-    --cor-pai:rgb(252, 220, 239);
+    --cor-pai: rgb(249, 249, 174);
+    --cor-filho: rgb(245, 134, 143);
+    --borda-filho: rgb(60, 120, 204);
+    --cor-propriedade: #4c9460fd;
+    --cor-valor: #e0058c;
+    --cor-ponto: #f5f908;
+    --cor-container: #bae0a3;
+
     --primeiro: #FF0018;
     --segundo: #FFA52C;
     --terceiro: #FFFF41;
@@ -14,10 +21,10 @@
     --sexto: #86007D;
     --setimo: #ffffff;
     --oitavo: #000000;
-    --cor-nome: #bae0a3;
-    --cor-propriedade: #5395fd;
-    --cor-valor: #d97171;
-    --cor-ponto: #ffffff;
+    
+  
+    
+    
     --fundo-code: #20273c;
     --cor-primairo: #1b1b1b;
     --cor-secundario: #000000;
@@ -28,7 +35,7 @@
 html {
     scroll-behavior: smooth;
     margin: 0;
-    background-color: yellow;
+    background-color: var(--cor-pai);
     display: flex;
     align-items: center;
 }
@@ -52,23 +59,7 @@ p {
 section {
     padding-bottom: 20px;
 }
-.descricao{
-    color: var(--cor-valor);
-    font-family: monospace;
-    font-size: 16px;
-}
-.nome{
-    color: var(--cor-nome);
-}
-.propriedade{
-    color: var(--cor-propriedade);
-}
-.valor{
-    color: var(--cor-valor);
-}
-.ponto{
-    color: var(--cor-ponto);
-}
+
 code{
     display: flex;
     flex-direction: column;
@@ -82,6 +73,33 @@ code{
 pre{
     margin: 0;
 }
+
+.descricao{
+    color: var(--cor-valor);
+    font-family: monospace;
+    font-size: 16px;
+    font-weight: bold;
+}
+.nome{
+    color: var(--cor-container);
+}
+.propriedade{
+    color: var(--cor-propriedade);
+}
+.valor{
+    color: var(--cor-valor);
+}
+.ponto{
+    color: var(--cor-ponto);
+}
+
+.descrição-propriedade {
+    color: var(--cor-valor);
+    font-family: monospace;
+    font-size: 16px;
+    font-weight: bold;
+}
+
 .sumário {
     font-size: 18pt;
     text-align: center;
@@ -91,23 +109,25 @@ pre{
     height: 100%;
     width: 1000px;
     padding-bottom: 25px;
-    margin: 0;
-    background-color: yellow;
+    
+    background-color: var(--cor-pai);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     
+   
+    
 }
 
 .container-filho {
     height: 100%;
-    width: 500px;
-    /* border-radius: 10px; */
-    border: 4px solid purple;
+    width: 1000px;
+    /*border-radius: 10px; */
+    border: 4px solid var(--borda-filho);
     padding: 10px 10px;
     margin: 10px 0 0 10px;
-    background-color:whitesmoke;
+    background-color: var(--cor-filho);
     display: flex;
     flex-direction: column;
 }

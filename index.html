@@ -5,10 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <title>Flexbox Documentação</title>
-
+</head>
+<body>
     <header>
         <a id="menu"></a>
         <h1>Guia CSS: Flexbox</h1>
+        <p>Flexbox é a abreviação de Flexible Box Module. Um  modelo de layout que permite fácil controle da distribuição do espaço e alinhamento entre elementos HTML.</p>
+        <p>Neste guia, vamos exemplificar as principais propriedades possíveis para o elemento pai (o flex-container, no nosso caso, a "caixa" preta) e os elementos filhos (os flex-itens, no nosso caso, as "caixinhas" coloridas).</p>
         <nav>
             <ul>
                 <div class="sumário">
@@ -22,27 +25,19 @@
             </ul>
         </nav>
     </header>
-</head>
-<body>
     <div class="container-pai">
-        <h2 class="propriedade">Display-flex</h2>
-        <div class="container-filho">
-            <img src="code_displayflex.jpg" alt="código css para aplicar display:flex" height="150" width="500">
-        
+        <div class="container-filho">   
             <section>
-                <h2><pre><span class="propriedade">flex-direction</span><span class="ponto">:</span><span class="valor">row</span></pre></h2>
-                <p class="descricao">Default value. The flexible items are displayed horizontally, as a row</p>
+                <h2><pre><span class="propriedade">Display</span><span class="ponto">:</span><span class="valor">flex</span></pre></h2>
+                <p class="descricao">Vamos começar pela primeira propriedade que precisa ser declarada para que o Flexbox funcione, o Display:flex!</p>
                 <code>
                     <span class="ponto">CSS</span>
                     <pre><span class="nome">.container</span><span class="ponto">{</span></pre>
                         <pre>   <span class="propriedade">display</span><span class="ponto">:</span><span class="valor">flex</span><span class="ponto">;</span></pre>
-                        <pre>   <span class="propriedade">flex-direction</span><span class="ponto">:</span><span class="valor">row</span><span class="ponto">;</span></pre>
-                        <pre>   <span class="propriedade">justify-content</span><span class="ponto">:</span><span class="valor">flex-start</span><span class="ponto">;</span></pre>
                     <pre><span class="ponto">}</span></pre>
                 </code>
             </section>
             <section> 
-                <h3 class="exemplo-propriedade">Vamos começar pela primeira propriedade que precisa ser declarada para que o Flexbox funcione, o Display:flex!</h3>
                 <p class="descrição-propriedade">A propriedade display-flex vai organizar os flex-itens um ao lado do outro (equivalente ao valor "row") por padrão.</p>
             </section>
             <div class="container-neto">
@@ -54,12 +49,18 @@
             </div>
         </div>
 
-        <h2 class="propriedade">Display-flex</h2>
-        <div class="container-filho">
-            <img src="code_displayflex.jpg" alt="código css para aplicar display:flex" height="150" width="500">
-        
+        <div class="container-filho">   
+            <section>
+                <h2><pre><span class="propriedade">Display</span><span class="ponto">:</span><span class="valor">flex</span></pre></h2>
+                <p class="descricao">Vamos começar pela primeira propriedade que precisa ser declarada para que o Flexbox funcione, o Display:flex!</p>
+                <code>
+                    <span class="ponto">CSS</span>
+                    <pre><span class="nome">.container</span><span class="ponto">{</span></pre>
+                        <pre>   <span class="propriedade">display</span><span class="ponto">:</span><span class="valor">flex</span><span class="ponto">;</span></pre>
+                    <pre><span class="ponto">}</span></pre>
+                </code>
+            </section>
             <section> 
-                <h3 class="exemplo-propriedade">Vamos começar pela primeira propriedade que precisa ser declarada para que o Flexbox funcione, o Display:flex!</h3>
                 <p class="descrição-propriedade">A propriedade display-flex vai organizar os flex-itens um ao lado do outro (equivalente ao valor "row") por padrão.</p>
             </section>
             <div class="container-neto">
@@ -70,6 +71,9 @@
                 <div class="contido">Exemplo 5</div>
             </div>
         </div>
+
+
+        
 
     </div>
 </body>
